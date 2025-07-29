@@ -9,9 +9,9 @@ private:
     bool vegetarian;
 public:
     Food(string n, double p, bool veg);
-    string getName() const override;
-    double getPrice() const override;
-    string getDescription() const override;
+    string getName() const;
+    double getPrice() const;
+    string getDescription() const;
 
 };
 

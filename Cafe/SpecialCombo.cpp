@@ -2,11 +2,11 @@
 
 SpecialCombo:: SpecialCombo(string n, double p, string det): name(n), price(p), details(det){}
 
-void SpecialCombo::getName() const
+string SpecialCombo::getName() const
 {
 	return  name;
 }
-void SpecialCombo::getPrice() const
+double SpecialCombo::getPrice() const
 {
 	return price;
 }

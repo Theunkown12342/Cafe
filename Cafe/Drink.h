@@ -9,8 +9,8 @@ private:
     bool ice;
 public:
     Drink(string n, double p, bool isIced);
-    string getName() const override;
-    double getPrice() const override;
-    string getDescription() const override;
+    string getName() const;
+    double getPrice() const;
+    string getDescription() const;
 };
 
