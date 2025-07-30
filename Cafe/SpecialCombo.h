@@ -10,8 +10,10 @@ private:
 
 public:
     SpecialCombo(string n, double p, string det);
-    string getName() const;
-    double getPrice() const;
-    string getDescription() const;
+    string getName() const override;
+    double getPrice() const override;
+    string getDescription() const override;
+
+ 
 };
 

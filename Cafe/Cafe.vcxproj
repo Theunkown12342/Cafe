@@ -19,15 +19,21 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="Customer.h" />
     <ClInclude Include="Drink.h" />
+    <ClInclude Include="Employee.h" />
     <ClInclude Include="Food.h" />
     <ClInclude Include="Menue.h" />
+    <ClInclude Include="Order.h" />
     <ClInclude Include="SpecialCombo.h" />
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="Customer.cpp" />
     <ClCompile Include="Drink.cpp" />
+    <ClCompile Include="Employee.cpp" />
     <ClCompile Include="Food.cpp" />
     <ClCompile Include="Menue.cpp" />
+    <ClCompile Include="Order.cpp" />
     <ClCompile Include="SpecialCombo.cpp" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
