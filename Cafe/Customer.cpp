@@ -17,5 +17,5 @@ void Customer::showReceipt() const
 			<< " : $" << item->getPrice() << endl;
 		total += item->getPrice();
 	}
-	cout << "Total: " << endl;
+	cout << "Total: " << total << endl;
 }

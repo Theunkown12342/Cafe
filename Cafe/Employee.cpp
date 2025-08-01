@@ -1,3 +1,3 @@
 #include "Employee.h"
 
-Employee:: Employee(string n) : name(n){}
+Employee:: Employee(const string& n) : name(n){}
