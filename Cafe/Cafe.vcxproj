@@ -19,6 +19,8 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="Barista.h" />
+    <ClInclude Include="Chef.h" />
     <ClInclude Include="Customer.h" />
     <ClInclude Include="Drink.h" />
     <ClInclude Include="Employee.h" />
@@ -28,11 +30,13 @@
     <ClInclude Include="SpecialCombo.h" />
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="Barista.cpp" />
+    <ClCompile Include="Chef.cpp" />
     <ClCompile Include="Customer.cpp" />
     <ClCompile Include="Drink.cpp" />
     <ClCompile Include="Employee.cpp" />
     <ClCompile Include="Food.cpp" />
-    <ClCompile Include="Menue.cpp" />
+    <ClCompile Include="Cafetest.cpp" />
     <ClCompile Include="Order.cpp" />
     <ClCompile Include="SpecialCombo.cpp" />
   </ItemGroup>
